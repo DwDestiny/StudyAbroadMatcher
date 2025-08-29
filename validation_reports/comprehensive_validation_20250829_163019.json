@@ -1,0 +1,216 @@
+{
+  "test_config": {
+    "test_samples_count": 21,
+    "test_majors_count": 20,
+    "test_timestamp": "2025-08-29T16:30:19.306691"
+  },
+  "performance_comparison": {
+    "original_system": {
+      "times": [
+        0.194549560546875,
+        0.011920928955078125,
+        0.10275840759277344,
+        0.00667572021484375,
+        0.08511543273925781
+      ],
+      "success_rate": 0.6,
+      "avg_time_ms": 0.08020401000976562,
+      "median_time_ms": 0.08511543273925781,
+      "max_time_ms": 0.194549560546875,
+      "min_time_ms": 0.00667572021484375
+    },
+    "enhanced_system": {
+      "times": [
+        0.244140625,
+        0.01049041748046875,
+        0.18787384033203125,
+        0.0059604644775390625,
+        0.17523765563964844
+      ],
+      "success_rate": 0.6,
+      "avg_time_ms": 0.1247406005859375,
+      "median_time_ms": 0.17523765563964844,
+      "max_time_ms": 0.244140625,
+      "min_time_ms": 0.0059604644775390625
+    }
+  },
+  "accuracy_analysis": {
+    "score_distribution_original": [
+      42,
+      35,
+      36,
+      27,
+      50,
+      45,
+      43,
+      35
+    ],
+    "score_distribution_enhanced": [
+      87,
+      89,
+      86,
+      88,
+      92,
+      77,
+      89,
+      93
+    ],
+    "confidence_comparison": [
+      {
+        "system": "original",
+        "confidence": 0.017,
+        "student_category": "顶级背景学生"
+      },
+      {
+        "system": "enhanced",
+        "confidence": 0.669,
+        "student_category": "顶级背景学生"
+      },
+      {
+        "system": "original",
+        "confidence": 0.011,
+        "student_category": "顶级背景学生"
+      },
+      {
+        "system": "enhanced",
+        "confidence": 0.669,
+        "student_category": "顶级背景学生"
+      },
+      {
+        "system": "original",
+        "confidence": 0.018,
+        "student_category": "优秀背景学生"
+      },
+      {
+        "system": "enhanced",
+        "confidence": 0.667,
+        "student_category": "优秀背景学生"
+      },
+      {
+        "system": "original",
+        "confidence": 0.011,
+        "student_category": "优秀背景学生"
+      },
+      {
+        "system": "enhanced",
+        "confidence": 0.666,
+        "student_category": "优秀背景学生"
+      },
+      {
+        "system": "original",
+        "confidence": 0.019,
+        "student_category": "普通背景学生"
+      },
+      {
+        "system": "enhanced",
+        "confidence": 0.699,
+        "student_category": "普通背景学生"
+      },
+      {
+        "system": "original",
+        "confidence": 0.011,
+        "student_category": "普通背景学生"
+      },
+      {
+        "system": "enhanced",
+        "confidence": 0.605,
+        "student_category": "普通背景学生"
+      },
+      {
+        "system": "original",
+        "confidence": 0.018,
+        "student_category": "边界情况学生"
+      },
+      {
+        "system": "enhanced",
+        "confidence": 0.679,
+        "student_category": "边界情况学生"
+      },
+      {
+        "system": "original",
+        "confidence": 0.011,
+        "student_category": "边界情况学生"
+      },
+      {
+        "system": "enhanced",
+        "confidence": 0.69,
+        "student_category": "边界情况学生"
+      }
+    ],
+    "business_logic_validation": {
+      "excellent_student_results": {
+        "Bachelor of Arts": {
+          "score": 87,
+          "level": "高匹配",
+          "confidence": 0.669
+        },
+        "Master of Digital Communication and Culture": {
+          "score": 89,
+          "level": "高匹配",
+          "confidence": 0.669
+        }
+      },
+      "ordinary_student_results": {
+        "Bachelor of Arts": {
+          "score": 92,
+          "level": "高匹配",
+          "confidence": 0.699
+        },
+        "Master of Digital Communication and Culture": {
+          "score": 77,
+          "level": "中等匹配",
+          "confidence": 0.605
+        }
+      },
+      "logic_check": {
+        "Bachelor of Arts": {
+          "excellent_score": 87,
+          "ordinary_score": 92,
+          "score_difference": -5,
+          "logic_interpretation": "普通学生更匹配，可能为入门级专业或优秀学生overqualified"
+        },
+        "Master of Digital Communication and Culture": {
+          "excellent_score": 89,
+          "ordinary_score": 77,
+          "score_difference": 12,
+          "logic_interpretation": "优秀学生明显更匹配，符合高要求专业预期"
+        }
+      }
+    },
+    "original_stats": {
+      "avg_score": 39.125,
+      "score_std": 6.771955035290769,
+      "score_range": [
+        27,
+        50
+      ]
+    },
+    "enhanced_stats": {
+      "avg_score": 87.625,
+      "score_std": 4.580870550452174,
+      "score_range": [
+        77,
+        93
+      ]
+    },
+    "original_confidence_avg": 0.014499999999999999,
+    "enhanced_confidence_avg": 0.668
+  },
+  "detailed_results": {
+    "representative_cases": [],
+    "edge_case_analysis": [
+      {
+        "student_profile": "普通本科+优异GPA+良好语言",
+        "expected_behavior": "普通院校高GPA，结果可能出人意料",
+        "major": "Bachelor of Arts",
+        "actual_result": {
+          "score": 89,
+          "level": "高匹配",
+          "confidence": 0.679
+        },
+        "analysis": "需要进一步分析"
+      }
+    ],
+    "system_insights": {}
+  }
+}

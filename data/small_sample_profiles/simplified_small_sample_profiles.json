@@ -1,0 +1,796 @@
+{
+  "analysis_summary": {
+    "large_sample_majors": 142,
+    "medium_sample_majors": 91,
+    "small_sample_majors": 124,
+    "processable_majors": 215,
+    "processed_majors": 20
+  },
+  "small_sample_profiles": {
+    "Early childhood education": {
+      "major_name": "Early childhood education",
+      "sample_size": 97,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 77.68041237113403,
+          "std": 17.589974886134584,
+          "median": 95.0,
+          "count": 97
+        },
+        "gpa_percentile": {
+          "mean": 68.78144060150376,
+          "std": 15.423370595541899,
+          "median": 70.0,
+          "count": 95
+        },
+        "major_matching_score": {
+          "mean": 0.4164948453608247,
+          "std": 0.1662580902612549,
+          "median": 0.4,
+          "count": 97
+        },
+        "language_score_normalized": {
+          "mean": 69.44444444444446,
+          "std": 11.78511301977579,
+          "median": 69.44444444444446,
+          "count": 2
+        },
+        "work_experience_years": {
+          "mean": 0.04329896907216495,
+          "std": 0.22262974517441758,
+          "median": 0.0,
+          "count": 97
+        }
+      },
+      "label": "211-一般GPA-小样本(97)",
+      "confidence": 0.7
+    },
+    "Master of Statistics": {
+      "major_name": "Master of Statistics",
+      "sample_size": 95,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 61.89473684210526,
+          "std": 7.690106498737592,
+          "median": 60.0,
+          "count": 95
+        },
+        "gpa_percentile": {
+          "mean": 80.57264044943821,
+          "std": 6.484604761641907,
+          "median": 81.8,
+          "count": 89
+        },
+        "major_matching_score": {
+          "mean": 0.7610526315789472,
+          "std": 0.2714401061799842,
+          "median": 0.8,
+          "count": 95
+        },
+        "language_score_normalized": {
+          "mean": 74.02777777777777,
+          "std": 2.5534411542847573,
+          "median": 74.02777777777777,
+          "count": 2
+        },
+        "work_experience_years": {
+          "mean": 0.02,
+          "std": 0.14774906847098068,
+          "median": 0.0,
+          "count": 95
+        }
+      },
+      "label": "本科-高GPA-小样本(95)",
+      "confidence": 0.7
+    },
+    "Accounting and finance": {
+      "major_name": "Accounting and finance",
+      "sample_size": 92,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 60.48913043478261,
+          "std": 2.678750591236996,
+          "median": 60.0,
+          "count": 92
+        },
+        "gpa_percentile": {
+          "mean": 75.9678888888889,
+          "std": 11.569217049290025,
+          "median": 80.0,
+          "count": 90
+        },
+        "major_matching_score": {
+          "mean": 0.5282608695652175,
+          "std": 0.33391651485295426,
+          "median": 0.6,
+          "count": 92
+        },
+        "language_score_normalized": {
+          "mean": 82.68055555555556,
+          "std": 8.899516216564185,
+          "median": 89.16666666666667,
+          "count": 20
+        },
+        "work_experience_years": {
+          "mean": 0.2826086956521739,
+          "std": 0.6202815198598124,
+          "median": 0.0,
+          "count": 92
+        }
+      },
+      "label": "本科-中GPA-小样本(92)",
+      "confidence": 0.7
+    },
+    "Master of Software Engineering": {
+      "major_name": "Master of Software Engineering",
+      "sample_size": 91,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 67.52747252747253,
+          "std": 14.764326872070669,
+          "median": 60.0,
+          "count": 91
+        },
+        "gpa_percentile": {
+          "mean": 82.5306671899529,
+          "std": 10.091735155287685,
+          "median": 83.8,
+          "count": 91
+        },
+        "major_matching_score": {
+          "mean": 0.5813186813186813,
+          "std": 0.2760483403367718,
+          "median": 0.6,
+          "count": 91
+        },
+        "language_score_normalized": {
+          "mean": 71.0,
+          "std": 5.843172184669752,
+          "median": 69.44444444444443,
+          "count": 10
+        },
+        "work_experience_years": {
+          "mean": 0.16483516483516486,
+          "std": 0.6791127588214929,
+          "median": 0.0,
+          "count": 91
+        }
+      },
+      "label": "本科-高GPA-小样本(91)",
+      "confidence": 0.7
+    },
+    "Master of Political Economy": {
+      "major_name": "Master of Political Economy",
+      "sample_size": 91,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 63.79120879120879,
+          "std": 10.523536038082005,
+          "median": 60.0,
+          "count": 91
+        },
+        "gpa_percentile": {
+          "mean": 81.73033333333333,
+          "std": 6.902116016528408,
+          "median": 83.0,
+          "count": 90
+        },
+        "major_matching_score": {
+          "mean": 0.3670329670329671,
+          "std": 0.15850337890190583,
+          "median": 0.4,
+          "count": 91
+        },
+        "language_score_normalized": {
+          "mean": 88.88888888888889,
+          "std": 0.0,
+          "median": 88.88888888888889,
+          "count": 5
+        },
+        "work_experience_years": {
+          "mean": 0.3087912087912088,
+          "std": 1.5230560179125499,
+          "median": 0.0,
+          "count": 91
+        }
+      },
+      "label": "本科-高GPA-小样本(91)",
+      "confidence": 0.7
+    },
+    "Master of laws": {
+      "major_name": "Master of laws",
+      "sample_size": 90,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 61.5,
+          "std": 4.525210281289438,
+          "median": 60.0,
+          "count": 90
+        },
+        "gpa_percentile": {
+          "mean": 84.03633333333333,
+          "std": 3.899179242359209,
+          "median": 83.615,
+          "count": 90
+        },
+        "major_matching_score": {
+          "mean": 0.8111111111111111,
+          "std": 0.2637007345519651,
+          "median": 1.0,
+          "count": 90
+        },
+        "language_score_normalized": {
+          "mean": 75.92592592592592,
+          "std": 3.20750149549793,
+          "median": 77.77777777777779,
+          "count": 3
+        },
+        "work_experience_years": {
+          "mean": 0.13,
+          "std": 0.5055756536593051,
+          "median": 0.0,
+          "count": 90
+        }
+      },
+      "label": "本科-高GPA-小样本(90)",
+      "confidence": 0.7
+    },
+    "Master of Interaction Design": {
+      "major_name": "Master of Interaction Design",
+      "sample_size": 90,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 63.166666666666664,
+          "std": 10.207124632256969,
+          "median": 60.0,
+          "count": 90
+        },
+        "gpa_percentile": {
+          "mean": 79.78450166112957,
+          "std": 11.84070877416327,
+          "median": 83.11500000000001,
+          "count": 86
+        },
+        "major_matching_score": {
+          "mean": 0.5233333333333333,
+          "std": 0.2454301429249875,
+          "median": 0.6,
+          "count": 90
+        },
+        "language_score_normalized": {
+          "mean": 68.5185185185185,
+          "std": 3.2075014954979215,
+          "median": 66.66666666666666,
+          "count": 3
+        },
+        "work_experience_years": {
+          "mean": 0.19777777777777777,
+          "std": 0.6978261233122681,
+          "median": 0.0,
+          "count": 90
+        }
+      },
+      "label": "本科-中GPA-小样本(90)",
+      "confidence": 0.7
+    },
+    "PR and Advertising": {
+      "major_name": "PR and Advertising",
+      "sample_size": 89,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 61.01123595505618,
+          "std": 3.7824186046114368,
+          "median": 60.0,
+          "count": 89
+        },
+        "gpa_percentile": {
+          "mean": 82.29964285714284,
+          "std": 4.184729971115602,
+          "median": 82.02000000000001,
+          "count": 84
+        },
+        "major_matching_score": {
+          "mean": 0.48426966292134827,
+          "std": 0.24949898724721326,
+          "median": 0.4,
+          "count": 89
+        },
+        "language_score_normalized": {
+          "mean": 70.37037037037037,
+          "std": 3.2075014954979215,
+          "median": 72.22222222222221,
+          "count": 3
+        },
+        "work_experience_years": {
+          "mean": 0.0044943820224719105,
+          "std": 0.0423999152002544,
+          "median": 0.0,
+          "count": 89
+        }
+      },
+      "label": "本科-高GPA-小样本(89)",
+      "confidence": 0.7
+    },
+    "Direct Entry Course 15 Weeks": {
+      "major_name": "Direct Entry Course 15 Weeks",
+      "sample_size": 89,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 60.73033707865169,
+          "std": 4.0276432454177895,
+          "median": 60.0,
+          "count": 89
+        },
+        "gpa_percentile": {
+          "mean": 82.83443023255813,
+          "std": 10.237815571854698,
+          "median": 84.0,
+          "count": 86
+        },
+        "major_matching_score": {
+          "mean": 0.30000000000000004,
+          "std": 0.2050498830661811,
+          "median": 0.2,
+          "count": 89
+        },
+        "language_score_normalized": {
+          "mean": 66.66666666666666,
+          "std": 4.536092116265137,
+          "median": 66.66666666666666,
+          "count": 4
+        },
+        "work_experience_years": {
+          "mean": 0.040449438202247195,
+          "std": 0.24342214600248177,
+          "median": 0.0,
+          "count": 89
+        }
+      },
+      "label": "本科-高GPA-小样本(89)",
+      "confidence": 0.7
+    },
+    "Master of Environmental Management": {
+      "major_name": "Master of Environmental Management",
+      "sample_size": 88,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 60.17045454545455,
+          "std": 1.5990053726670783,
+          "median": 60.0,
+          "count": 88
+        },
+        "gpa_percentile": {
+          "mean": 77.3276247848537,
+          "std": 9.881089546504386,
+          "median": 81.0,
+          "count": 83
+        },
+        "major_matching_score": {
+          "mean": 0.4431818181818182,
+          "std": 0.16525525678630254,
+          "median": 0.4,
+          "count": 88
+        },
+        "language_score_normalized": {
+          "mean": 72.22222222222221,
+          "std": 0.0,
+          "median": 72.22222222222221,
+          "count": 9
+        },
+        "work_experience_years": {
+          "mean": 0.5136363636363637,
+          "std": 1.5397553036064937,
+          "median": 0.0,
+          "count": 88
+        }
+      },
+      "label": "本科-中GPA-小样本(88)",
+      "confidence": 0.7
+    },
+    "Master of Teaching and Learning": {
+      "major_name": "Master of Teaching and Learning",
+      "sample_size": 88,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 60.79545454545455,
+          "std": 5.246036469715808,
+          "median": 60.0,
+          "count": 88
+        },
+        "gpa_percentile": {
+          "mean": 81.99062551440329,
+          "std": 8.76449292196357,
+          "median": 80.96,
+          "count": 81
+        },
+        "major_matching_score": {
+          "mean": 0.40454545454545454,
+          "std": 0.18931764398472992,
+          "median": 0.4,
+          "count": 88
+        },
+        "language_score_normalized": {
+          "mean": 76.07843137254902,
+          "std": 11.909623968229784,
+          "median": 74.44444444444444,
+          "count": 17
+        },
+        "work_experience_years": {
+          "mean": 0.4920454545454546,
+          "std": 1.2886972474601182,
+          "median": 0.0,
+          "count": 88
+        }
+      },
+      "label": "本科-高GPA-小样本(88)",
+      "confidence": 0.7
+    },
+    "Bachelor of Engineering (Honours)": {
+      "major_name": "Bachelor of Engineering (Honours)",
+      "sample_size": 88,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 60.17045454545455,
+          "std": 1.5990053726670783,
+          "median": 60.0,
+          "count": 88
+        },
+        "gpa_percentile": {
+          "mean": 65.8701119402985,
+          "std": 31.967484878793886,
+          "median": 80.0,
+          "count": 67
+        },
+        "major_matching_score": {
+          "mean": 0.4227272727272728,
+          "std": 0.2480856696335642,
+          "median": 0.4,
+          "count": 88
+        },
+        "language_score_normalized": {
+          "mean": 74.07407407407406,
+          "std": 3.618549707105171,
+          "median": 72.22222222222221,
+          "count": 12
+        },
+        "work_experience_years": {
+          "mean": 0.004545454545454546,
+          "std": 0.04264014327112209,
+          "median": 0.0,
+          "count": 88
+        }
+      },
+      "label": "本科-一般GPA-小样本(88)",
+      "confidence": 0.7
+    },
+    "Master of Teaching": {
+      "major_name": "Master of Teaching",
+      "sample_size": 88,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 67.95454545454545,
+          "std": 14.751511974646533,
+          "median": 60.0,
+          "count": 88
+        },
+        "gpa_percentile": {
+          "mean": 75.45430924369747,
+          "std": 13.001197425077212,
+          "median": 77.0,
+          "count": 85
+        },
+        "major_matching_score": {
+          "mean": 0.4215909090909091,
+          "std": 0.19085341527806618,
+          "median": 0.4,
+          "count": 88
+        },
+        "language_score_normalized": {
+          "mean": 79.62962962962962,
+          "std": 8.486251286955259,
+          "median": 77.77777777777779,
+          "count": 3
+        },
+        "work_experience_years": {
+          "mean": 0.11704545454545455,
+          "std": 0.6259193864787269,
+          "median": 0.0,
+          "count": 88
+        }
+      },
+      "label": "本科-中GPA-小样本(88)",
+      "confidence": 0.7
+    },
+    "Master of Marketing Management": {
+      "major_name": "Master of Marketing Management",
+      "sample_size": 88,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 62.38636363636363,
+          "std": 6.250391837246867,
+          "median": 60.0,
+          "count": 88
+        },
+        "gpa_percentile": {
+          "mean": 80.42072273255201,
+          "std": 8.14295291465427,
+          "median": 83.15,
+          "count": 82
+        },
+        "major_matching_score": {
+          "mean": 0.605681818181818,
+          "std": 0.21354046403565827,
+          "median": 0.6,
+          "count": 88
+        },
+        "language_score_normalized": {
+          "mean": 75.92592592592592,
+          "std": 7.856742013183864,
+          "median": 72.22222222222221,
+          "count": 9
+        },
+        "work_experience_years": {
+          "mean": 0.06818181818181818,
+          "std": 0.34090665272552,
+          "median": 0.0,
+          "count": 88
+        }
+      },
+      "label": "本科-高GPA-小样本(88)",
+      "confidence": 0.7
+    },
+    "Master of Nursing (Pre-Registration)": {
+      "major_name": "Master of Nursing (Pre-Registration)",
+      "sample_size": 87,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 60.804597701149426,
+          "std": 5.275743263980584,
+          "median": 60.0,
+          "count": 87
+        },
+        "gpa_percentile": {
+          "mean": 80.67589411764706,
+          "std": 10.67983630160742,
+          "median": 82.7,
+          "count": 85
+        },
+        "major_matching_score": {
+          "mean": 0.2758620689655172,
+          "std": 0.19347827066346607,
+          "median": 0.2,
+          "count": 87
+        },
+        "language_score_normalized": {
+          "mean": 82.8888888888889,
+          "std": 7.391782462422799,
+          "median": 82.22222222222221,
+          "count": 15
+        },
+        "work_experience_years": {
+          "mean": 0.5839080459770115,
+          "std": 1.8543395717236075,
+          "median": 0.0,
+          "count": 87
+        }
+      },
+      "label": "本科-高GPA-小样本(87)",
+      "confidence": 0.7
+    },
+    "UMELBP-University of Melbourne English Language Bridging Program": {
+      "major_name": "UMELBP-University of Melbourne English Language Bridging Program",
+      "sample_size": 83,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 61.98795180722892,
+          "std": 6.145579366808852,
+          "median": 60.0,
+          "count": 83
+        },
+        "gpa_percentile": {
+          "mean": 84.37375,
+          "std": 6.36575238923198,
+          "median": 85.66,
+          "count": 80
+        },
+        "major_matching_score": {
+          "mean": 0.39036144578313253,
+          "std": 0.20872111036040256,
+          "median": 0.4,
+          "count": 83
+        },
+        "language_score_normalized": {
+          "mean": 68.37962962962962,
+          "std": 2.6898108306211386,
+          "median": 66.66666666666666,
+          "count": 6
+        },
+        "work_experience_years": {
+          "mean": 0.032530120481927716,
+          "std": 0.20128152456316775,
+          "median": 0.0,
+          "count": 83
+        }
+      },
+      "label": "本科-高GPA-小样本(83)",
+      "confidence": 0.7
+    },
+    "Master of Arts": {
+      "major_name": "Master of Arts",
+      "sample_size": 82,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 60.18292682926829,
+          "std": 1.6564728911226985,
+          "median": 60.0,
+          "count": 82
+        },
+        "gpa_percentile": {
+          "mean": 84.04212737127371,
+          "std": 6.181697745790267,
+          "median": 84.67500000000001,
+          "count": 82
+        },
+        "major_matching_score": {
+          "mean": 0.47560975609756095,
+          "std": 0.23911409312977164,
+          "median": 0.4,
+          "count": 82
+        },
+        "language_score_normalized": {
+          "mean": 77.77777777777779,
+          "std": 0.0,
+          "median": 77.77777777777779,
+          "count": 1
+        },
+        "work_experience_years": {
+          "mean": 0.052439024390243914,
+          "std": 0.14675553684307166,
+          "median": 0.0,
+          "count": 82
+        }
+      },
+      "label": "本科-高GPA-小样本(82)",
+      "confidence": 0.7
+    },
+    "Master of Professional Engineering (Accelerated)(Electrical Engineering)": {
+      "major_name": "Master of Professional Engineering (Accelerated)(Electrical Engineering)",
+      "sample_size": 81,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 61.91358024691358,
+          "std": 7.768844075639886,
+          "median": 60.0,
+          "count": 81
+        },
+        "gpa_percentile": {
+          "mean": 77.6648241912799,
+          "std": 8.645476219718576,
+          "median": 80.17,
+          "count": 79
+        },
+        "major_matching_score": {
+          "mean": 0.762962962962963,
+          "std": 0.16766368453279057,
+          "median": 0.8,
+          "count": 81
+        },
+        "language_score_normalized": {
+          "mean": 70.37037037037037,
+          "std": 3.207501495497922,
+          "median": 72.22222222222221,
+          "count": 3
+        },
+        "work_experience_years": {
+          "mean": 0.08641975308641975,
+          "std": 0.511310347641174,
+          "median": 0.0,
+          "count": 81
+        }
+      },
+      "label": "本科-中GPA-小样本(81)",
+      "confidence": 0.7
+    },
+    "Master of Information Technology - No Specified major": {
+      "major_name": "Master of Information Technology - No Specified major",
+      "sample_size": 79,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 60.0,
+          "std": 0.0,
+          "median": 60.0,
+          "count": 79
+        },
+        "gpa_percentile": {
+          "mean": 75.94961038961037,
+          "std": 8.964025535080477,
+          "median": 77.3,
+          "count": 77
+        },
+        "major_matching_score": {
+          "mean": 0.46582278481012657,
+          "std": 0.1716332374342027,
+          "median": 0.6,
+          "count": 79
+        },
+        "language_score_normalized": {
+          "mean": 67.5925925925926,
+          "std": 10.1935992181651,
+          "median": 61.11111111111112,
+          "count": 6
+        },
+        "work_experience_years": {
+          "mean": 0.07341772151898734,
+          "std": 0.652550982537094,
+          "median": 0.0,
+          "count": 79
+        }
+      },
+      "label": "本科-中GPA-小样本(79)",
+      "confidence": 0.7
+    },
+    "Graduate Certificate in Commerce": {
+      "major_name": "Graduate Certificate in Commerce",
+      "sample_size": 76,
+      "profile_type": "simplified",
+      "key_features": {
+        "source_university_tier_score": {
+          "mean": 63.1578947368421,
+          "std": 9.689929661360049,
+          "median": 60.0,
+          "count": 76
+        },
+        "gpa_percentile": {
+          "mean": 77.00918918918919,
+          "std": 11.519948957834599,
+          "median": 82.13499999999999,
+          "count": 74
+        },
+        "major_matching_score": {
+          "mean": 0.5605263157894738,
+          "std": 0.15839103288458475,
+          "median": 0.6,
+          "count": 76
+        },
+        "language_score_normalized": {
+          "mean": 77.77777777777779,
+          "std": 0.0,
+          "median": 77.77777777777779,
+          "count": 1
+        },
+        "work_experience_years": {
+          "mean": 0.0,
+          "std": 0.0,
+          "median": 0.0,
+          "count": 76
+        }
+      },
+      "label": "本科-中GPA-小样本(76)",
+      "confidence": 0.7
+    }
+  },
+  "processing_info": {
+    "method": "simplified_statistical",
+    "feature_count": 35,
+    "confidence_adjustment": "sample_size_based"
+  }
+}

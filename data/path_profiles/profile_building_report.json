@@ -1,0 +1,20 @@
+{
+  "summary": {
+    "total_majors_profiled": 50,
+    "total_paths": 120,
+    "avg_paths_per_major": 2.4,
+    "avg_representativeness": 0.8806832712238994
+  },
+  "path_distribution": {
+    "2_paths": 37,
+    "3_paths": 9,
+    "4_paths": 1,
+    "5_paths": 3
+  },
+  "quality_metrics": {
+    "avg_clustering_quality": 0.45856405231081027,
+    "high_quality_majors (>0.5)": 25,
+    "medium_quality_majors (0.3-0.5)": 23,
+    "low_quality_majors (<0.3)": 2
+  }
+}

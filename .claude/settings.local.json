@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(venvScripts:*)",
+      "Bash(call venvScriptsactivate)",
+      "Bash(.venvScriptsActivate.ps1)",
+      "Bash(mkdir:*)",
+      "Bash(move \"data\\近3年offer数据_整理表头.csv\" \"data\\raw\"\")",
+      "Bash(mv:*)",
+      "Bash(pip install:*)",
+      "Bash(dir:*)",
+      "Bash(del \"E:\\小希\\python脚本\\定校数据支撑方案\\test_scoring_logic.py\")",
+      "Bash(rm:*)",
+      "Bash(powershell:*)",
+      "Bash(del \"test_enhanced_matching.py\" \"test_improved_classifier.py\")",
+      "Bash(Start-Process \"index.html\")",
+      "Bash(del:*)"
+    ],
+    "deny": [],
+    "defaultMode": "acceptEdits"
+  }
+}

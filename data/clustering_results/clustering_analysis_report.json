@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "total_majors_analyzed": 50,
+    "avg_silhouette_score": 0.45856405231081027,
+    "avg_clusters_per_major": 2.4,
+    "total_applications_covered": 41732
+  },
+  "score_distribution": {
+    "excellent (>0.5)": 25,
+    "good (0.3-0.5)": 23,
+    "poor (<0.3)": 2
+  },
+  "cluster_size_distribution": {
+    "2_clusters": 37,
+    "3_clusters": 9,
+    "4_clusters": 1,
+    "5_clusters": 3
+  }
+}
