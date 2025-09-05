@@ -65,9 +65,10 @@ class MajorClassificationSystem:
                     },
                     '国际贸易': {
                         'keywords': ['international trade', 'global business', '国际贸易', '国际商务',
-                                   'import', 'export', 'logistics', 'supply chain', 'international business'],
+                                   'import', 'export', 'logistics', 'supply chain', 'international business',
+                                   '物流', '供应链', '物流管理', '供应链管理', '进出口', '贸易'],
                         'exact_matches': ['International Trade', '国际贸易', 'International Business',
-                                        '国际商务', 'Global Business', 'Supply Chain Management']
+                                        '国际商务', 'Global Business', 'Supply Chain Management', '物流管理', '供应链管理']
                     },
                     '商务': {
                         'keywords': ['commerce', 'business', '商务', 'commercial', 'trade', 'mercantile',
@@ -80,6 +81,13 @@ class MajorClassificationSystem:
                                    'organizational behavior', 'talent management', 'workforce'],
                         'exact_matches': ['Human Resource Management', '人力资源管理', 'HR Management',
                                         'Organizational Behavior', 'Personnel Management']
+                    },
+                    '信息管理': {
+                        'keywords': ['information management', '信息管理', '管理信息系统', '信息系统', 
+                                   'data management', '数据管理', 'system analysis', '系统分析', 'mis',
+                                   'information systems', 'database management', '数据库管理'],
+                        'exact_matches': ['Information Management', '信息管理与信息系统', '管理信息系统',
+                                        'Management Information Systems', 'Information Systems', 'MIS']
                     }
                 }
             },
@@ -111,9 +119,11 @@ class MajorClassificationSystem:
                     },
                     '电子工程': {
                         'keywords': ['electrical engineering', 'electronics', '电子工程', '电气工程',
-                                   'circuit', 'power', 'signal', 'communication', 'automation'],
+                                   'circuit', 'power', 'signal', 'communication', 'automation', '电子信息',
+                                   '信息工程', '电子信息工程', '电子', '信息', '自动化', '电气'],
                         'exact_matches': ['Electrical Engineering', '电气工程', 'Electronics Engineering',
-                                        '电子工程', 'Electrical and Electronic Engineering']
+                                        '电子工程', 'Electrical and Electronic Engineering', '电子信息工程',
+                                        '电气工程及其自动化', '自动化']
                     },
                     '机械工程': {
                         'keywords': ['mechanical engineering', '机械工程', 'mechanical', 'manufacturing',
@@ -132,6 +142,27 @@ class MajorClassificationSystem:
                                    'network communication', 'signal processing', '5g', 'mobile'],
                         'exact_matches': ['Communication Engineering', '通信工程', 'Telecommunications',
                                         'Wireless Communication', 'Network Engineering']
+                    },
+                    '环境工程': {
+                        'keywords': ['environmental engineering', '环境工程', '环境', '环保', '生态', '污染',
+                                   'environmental science', '环境科学', '环境保护', 'ecology', 'pollution',
+                                   'sustainability', '可持续', 'waste management', '废物处理'],
+                        'exact_matches': ['Environmental Engineering', '环境工程', 'Environmental Science',
+                                        '环境科学', 'Environmental Protection', '环境保护']
+                    },
+                    '材料工程': {
+                        'keywords': ['materials engineering', '材料工程', '材料', '材料科学', 'materials science',
+                                   '金属', 'metal', '复合材料', 'composite', '纳米材料', 'nanomaterials',
+                                   'polymer', '聚合物', 'ceramics', '陶瓷', 'metallurgy', '冶金'],
+                        'exact_matches': ['Materials Engineering', '材料工程', 'Materials Science and Engineering',
+                                        '材料科学与工程', 'Materials Science', '材料科学', 'Metallurgy', '冶金工程']
+                    },
+                    '食品工程': {
+                        'keywords': ['food engineering', '食品工程', '食品', '食品科学', 'food science',
+                                   '营养', 'nutrition', '食品安全', 'food safety', '食品技术', 'food technology',
+                                   'food processing', '食品加工', 'biotechnology', '生物技术'],
+                        'exact_matches': ['Food Engineering', '食品工程', 'Food Science and Engineering',
+                                        '食品科学与工程', 'Food Science', '食品科学', 'Food Technology', '食品技术']
                     }
                 }
             },
@@ -172,6 +203,13 @@ class MajorClassificationSystem:
                                    'clinical psychology', 'social psychology', 'developmental psychology'],
                         'exact_matches': ['Psychology', '心理学', 'Applied Psychology', '应用心理学',
                                         'Clinical Psychology', 'Social Psychology']
+                    },
+                    '社会学': {
+                        'keywords': ['sociology', '社会学', '社会', 'social', '社会工作', 'social work',
+                                   '社会服务', 'social service', '社区', 'community', '社会管理',
+                                   'social management', 'social welfare', '社会福利'],
+                        'exact_matches': ['Sociology', '社会学', 'Social Work', '社会工作',
+                                        'Social Service', '社会服务', 'Community Service']
                     }
                 }
             },
@@ -206,6 +244,15 @@ class MajorClassificationSystem:
                                    'metaphysics', 'epistemology', 'political philosophy'],
                         'exact_matches': ['Philosophy', '哲学', 'Ethics', '伦理学',
                                         'Political Philosophy', 'Applied Philosophy']
+                    },
+                    '政治学': {
+                        'keywords': ['political science', '政治学', '政治', 'politics', '国际政治', 
+                                   'international politics', '外交', 'diplomacy', '政策', 'policy',
+                                   '公共管理', 'public administration', '行政', 'administration',
+                                   'government', '政府', 'international relations', '国际关系'],
+                        'exact_matches': ['Political Science', '政治学', 'International Politics', '国际政治',
+                                        'Public Administration', '公共管理', 'International Relations', '国际关系',
+                                        'Government', 'Policy Studies']
                     }
                 }
             },
