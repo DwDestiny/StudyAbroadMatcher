@@ -1,0 +1,276 @@
+2025-09-05 13:18:37,434 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-05 13:20:13,371 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-05 13:20:13,394 - __main__ - INFO - ÌØÕ÷×ª»»Æ÷³õÊ¼»¯Íê³É
+2025-09-05 13:20:16,262 - __main__ - INFO - Æ¥ÅäÏµÍ³³õÊ¼»¯Íê³É
+2025-09-05 13:20:16,263 - __main__ - INFO - ÏµÍ³³õÊ¼»¯Íê³É£¬ÓÃÊ±: 2.89Ãë
+2025-09-05 13:20:16,293 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.99.62:5000
+2025-09-05 13:20:16,293 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 14:06:45,211 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-05 14:06:45,227 - __main__ - INFO - ÌØÕ÷×ª»»Æ÷³õÊ¼»¯Íê³É
+2025-09-05 14:06:47,738 - __main__ - INFO - Æ¥ÅäÏµÍ³³õÊ¼»¯Íê³É
+2025-09-05 14:06:47,738 - __main__ - INFO - ÏµÍ³³õÊ¼»¯Íê³É£¬ÓÃÊ±: 2.53Ãë
+2025-09-05 14:06:47,764 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.99.62:5000
+2025-09-05 14:06:47,765 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 14:07:15,889 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 14:07:15] "GET /api/status HTTP/1.1" 200 -
+2025-09-05 14:08:35,685 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 14:08:35] "GET /api/status HTTP/1.1" 200 -
+2025-09-05 14:08:37,705 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 14:08:37] "GET /api/majors HTTP/1.1" 200 -
+2025-09-05 14:08:39,727 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 14:08:39] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-05 14:08:41,746 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 14:08:41] "[31m[1mPOST /api/recommend/student HTTP/1.1[0m" 400 -
+2025-09-05 14:10:41,333 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 14:10:41] "GET /api/status HTTP/1.1" 200 -
+2025-09-05 14:10:43,345 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 14:10:43] "GET /api/majors HTTP/1.1" 200 -
+2025-09-05 14:10:45,357 - __main__ - INFO - ¿ªÊ¼´¦ÀíÆ¥ÅäÇëÇó: ±±¾©´óÑ§ -> Master of Computer Science
+2025-09-05 14:10:45,359 - __main__ - INFO - Æ¥ÅäÇëÇóÍê³É£¬ÓÃÊ±: 0.002Ãë£¬Æ¥Åä¶È: 69·Ö
+2025-09-05 14:10:45,360 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 14:10:45] "POST /api/match/student HTTP/1.1" 200 -
+2025-09-05 14:10:47,381 - __main__ - INFO - ÍÆ¼öÇëÇóÍê³É£¬ÓÃÊ±: 0.012Ãë£¬ÍÆ¼ö×¨ÒµÊý: 5
+2025-09-05 14:10:47,382 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 14:10:47] "POST /api/recommend/student HTTP/1.1" 200 -
+2025-09-05 15:28:58,880 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-05 15:28:58,891 - __main__ - INFO - ÌØÕ÷×ª»»Æ÷³õÊ¼»¯Íê³É
+2025-09-05 15:29:00,991 - __main__ - INFO - Æ¥ÅäÏµÍ³³õÊ¼»¯Íê³É
+2025-09-05 15:29:00,991 - __main__ - INFO - ÏµÍ³³õÊ¼»¯Íê³É£¬ÓÃÊ±: 2.11Ãë
+2025-09-05 15:29:01,016 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.99.62:5000
+2025-09-05 15:29:01,016 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 15:31:20,717 - __main__ - ERROR - APIÇëÇó´¦ÀíÊ§°Ü: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-09-05 15:31:20,738 - __main__ - ERROR - Traceback (most recent call last):
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 611, in get_json
+    rv = self.json_module.loads(data)
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\flask\json\provider.py", line 187, in loads
+    return json.loads(s, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python313\Lib\json\__init__.py", line 341, in loads
+    s = s.decode(detect_encoding(s), 'surrogatepass')
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb1 in position 15: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\flask\wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 645, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: 'utf-8' codec can't decode byte 0xb1 in position 15: invalid start byte
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\production_api_server.py", line 196, in match_student
+    data = request.get_json()
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 620, in get_json
+    rv = self.on_json_loading_failed(e)
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\flask\wrappers.py", line 219, in on_json_loading_failed
+    raise BadRequest() from ebr
+werkzeug.exceptions.BadRequest: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2025-09-05 15:31:20,739 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 15:31:20] "[35m[1mPOST /api/match/student HTTP/1.1[0m" 500 -
+2025-09-05 15:33:14,138 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 15:33:14] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-05 15:36:27,127 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 15:36:27] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-05 15:37:08,285 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-05 15:37:08,307 - __main__ - INFO - ÌØÕ÷×ª»»Æ÷³õÊ¼»¯Íê³É
+2025-09-05 15:37:10,772 - __main__ - INFO - Æ¥ÅäÏµÍ³³õÊ¼»¯Íê³É
+2025-09-05 15:37:10,772 - __main__ - INFO - ÏµÍ³³õÊ¼»¯Íê³É£¬ÓÃÊ±: 2.49Ãë
+2025-09-05 15:37:10,798 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.99.62:5000
+2025-09-05 15:37:10,799 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 15:47:34,297 - __main__ - INFO - ¿ªÊ¼´¦ÀíÆ¥ÅäÇëÇó: Peking University -> Master of Computer Science
+2025-09-05 15:47:34,298 - __main__ - INFO - Æ¥ÅäÇëÇóÍê³É£¬ÓÃÊ±: 0.002Ãë£¬Æ¥Åä¶È: 63·Ö
+2025-09-05 15:47:34,299 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 15:47:34] "POST /api/match/student HTTP/1.1" 200 -
+2025-09-05 15:50:59,635 - __main__ - INFO - ÍÆ¼öÇëÇóÍê³É£¬ÓÃÊ±: 0.008Ãë£¬ÍÆ¼ö×¨ÒµÊý: 5
+2025-09-05 15:50:59,636 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 15:50:59] "POST /api/recommend/student HTTP/1.1" 200 -
+2025-09-05 16:24:21,211 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-05 16:24:21,225 - __main__ - INFO - ÌØÕ÷×ª»»Æ÷³õÊ¼»¯Íê³É
+2025-09-05 16:24:23,692 - __main__ - INFO - Æ¥ÅäÏµÍ³³õÊ¼»¯Íê³É
+2025-09-05 16:24:23,693 - __main__ - INFO - ÏµÍ³³õÊ¼»¯Íê³É£¬ÓÃÊ±: 2.48Ãë
+2025-09-05 16:24:23,727 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.99.62:5000
+2025-09-05 16:24:23,727 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 16:30:14,385 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 16:30:14] "GET /api/majors HTTP/1.1" 200 -
+2025-09-05 16:33:50,074 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-05 16:33:50,083 - __main__ - INFO - ÌØÕ÷×ª»»Æ÷³õÊ¼»¯Íê³É
+2025-09-05 16:33:52,589 - __main__ - INFO - Æ¥ÅäÏµÍ³³õÊ¼»¯Íê³É
+2025-09-05 16:33:52,589 - __main__ - INFO - ÏµÍ³³õÊ¼»¯Íê³É£¬ÓÃÊ±: 2.52Ãë
+2025-09-05 16:33:52,618 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.99.62:5000
+2025-09-05 16:33:52,618 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 16:50:34,562 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-05 16:50:34,573 - __main__ - INFO - ÌØÕ÷×ª»»Æ÷³õÊ¼»¯Íê³É
+2025-09-05 16:50:36,868 - __main__ - INFO - Æ¥ÅäÏµÍ³³õÊ¼»¯Íê³É
+2025-09-05 16:50:36,868 - __main__ - INFO - ÏµÍ³³õÊ¼»¯Íê³É£¬ÓÃÊ±: 2.31Ãë
+2025-09-05 16:50:36,897 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.99.62:5000
+2025-09-05 16:50:36,898 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 17:16:17,396 - __main__ - INFO - ¼ÓÔØ¿ìËÙ¼ì²éÊý¾Ý: ÔºÐ£455¸ö, ×¨Òµ4108¸ö
+2025-09-05 17:16:17,399 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-05 17:16:17,408 - __main__ - INFO - ÌØÕ÷×ª»»Æ÷³õÊ¼»¯Íê³É
+2025-09-05 17:16:19,583 - __main__ - INFO - Æ¥ÅäÏµÍ³³õÊ¼»¯Íê³É
+2025-09-05 17:16:19,583 - __main__ - INFO - ÏµÍ³³õÊ¼»¯Íê³É£¬ÓÃÊ±: 2.18Ãë
+2025-09-05 17:16:19,609 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.99.62:5000
+2025-09-05 17:16:19,609 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 17:23:43,860 - __main__ - INFO - ¼ÓÔØ¿ìËÙ¼ì²éÊý¾Ý: ÔºÐ£455¸ö, ×¨Òµ4108¸ö
+2025-09-05 17:23:43,864 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-05 17:23:43,874 - __main__ - INFO - ÌØÕ÷×ª»»Æ÷³õÊ¼»¯Íê³É
+2025-09-05 17:23:46,528 - __main__ - INFO - Æ¥ÅäÏµÍ³³õÊ¼»¯Íê³É
+2025-09-05 17:23:46,528 - __main__ - INFO - ÏµÍ³³õÊ¼»¯Íê³É£¬ÓÃÊ±: 2.66Ãë
+2025-09-05 17:23:46,557 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.99.62:5000
+2025-09-05 17:23:46,557 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 17:24:50,423 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 17:24:50] "GET /api/status HTTP/1.1" 200 -
+2025-09-05 17:25:38,888 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 17:25:38] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-05 17:26:18,578 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 17:26:18] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-05 17:26:51,158 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 17:26:51] "[31m[1mPOST /api/recommend/student HTTP/1.1[0m" 400 -
+2025-09-05 17:27:24,769 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 17:27:24] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-05 17:28:01,688 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 17:28:01] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-05 17:29:24,042 - __main__ - INFO - ¿ªÊ¼´¦ÀíÆ¥ÅäÇëÇó: The University of Sydney -> Master of Commerce (Extension)
+2025-09-05 17:29:24,043 - __main__ - INFO - Æ¥ÅäÇëÇóÍê³É£¬ÓÃÊ±: 0.001Ãë£¬Æ¥Åä¶È: 76·Ö
+2025-09-05 17:29:24,043 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 17:29:24] "POST /api/match/student HTTP/1.1" 200 -
+2025-09-08 09:41:48,543 - production_api_server - INFO - ¼ÓÔØ¿ìËÙ¼ì²éÊý¾Ý: ÔºÐ£455¸ö, ×¨Òµ4108¸ö
+2025-09-08 09:42:44,496 - __main__ - INFO - ¼ÓÔØ¿ìËÙ¼ì²éÊý¾Ý: ÔºÐ£455¸ö, ×¨Òµ4108¸ö
+2025-09-08 09:42:44,498 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-08 09:42:44,519 - __main__ - INFO - ÌØÕ÷×ª»»Æ÷³õÊ¼»¯Íê³É
+2025-09-08 09:42:46,583 - __main__ - INFO - Æ¥ÅäÏµÍ³³õÊ¼»¯Íê³É
+2025-09-08 09:42:46,583 - __main__ - INFO - ÏµÍ³³õÊ¼»¯Íê³É£¬ÓÃÊ±: 2.08Ãë
+2025-09-08 09:42:46,618 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.99.62:5000
+2025-09-08 09:42:46,619 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 09:43:29,647 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 09:43:29] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 09:49:50,860 - __main__ - INFO - ¼ÓÔØ¿ìËÙ¼ì²éÊý¾Ý: ÔºÐ£455¸ö, ×¨Òµ4108¸ö
+2025-09-08 09:49:50,864 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-08 09:49:50,877 - __main__ - INFO - ÌØÕ÷×ª»»Æ÷³õÊ¼»¯Íê³É
+2025-09-08 09:49:53,703 - __main__ - INFO - Æ¥ÅäÏµÍ³³õÊ¼»¯Íê³É
+2025-09-08 09:49:53,703 - __main__ - INFO - ÏµÍ³³õÊ¼»¯Íê³É£¬ÓÃÊ±: 2.84Ãë
+2025-09-08 09:49:53,746 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.99.62:5000
+2025-09-08 09:49:53,747 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 09:51:29,039 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 09:51:29] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 09:51:31,048 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 09:51:31] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 09:51:33,055 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 09:51:33] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 09:51:35,065 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 09:51:35] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 09:51:37,076 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 09:51:37] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 09:57:14,245 - __main__ - INFO - ¼ÓÔØ¿ìËÙ¼ì²éÊý¾Ý: ÔºÐ£455¸ö, ×¨Òµ4108¸ö
+2025-09-08 09:57:14,249 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-08 09:57:14,261 - __main__ - INFO - ÌØÕ÷×ª»»Æ÷³õÊ¼»¯Íê³É
+2025-09-08 09:57:16,627 - __main__ - INFO - Æ¥ÅäÏµÍ³³õÊ¼»¯Íê³É
+2025-09-08 09:57:16,627 - __main__ - INFO - ÏµÍ³³õÊ¼»¯Íê³É£¬ÓÃÊ±: 2.38Ãë
+2025-09-08 09:57:16,652 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.99.62:5000
+2025-09-08 09:57:16,652 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 10:07:26,208 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 10:07:26] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 10:09:45,255 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 10:09:45] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 10:09:47,267 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 10:09:47] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 10:09:49,290 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 10:09:49] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 10:12:49,569 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 10:12:49] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 10:12:51,581 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 10:12:51] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 10:12:53,593 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 10:12:53] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 10:34:47,050 - __main__ - INFO - ¼ÓÔØ¿ìËÙ¼ì²éÊý¾Ý: ÔºÐ£455¸ö, ×¨Òµ4108¸ö
+2025-09-08 10:34:47,052 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-08 10:34:47,062 - __main__ - INFO - ÌØÕ÷×ª»»Æ÷³õÊ¼»¯Íê³É
+2025-09-08 10:34:50,053 - __main__ - INFO - Æ¥ÅäÏµÍ³³õÊ¼»¯Íê³É
+2025-09-08 10:34:50,054 - __main__ - INFO - ÏµÍ³³õÊ¼»¯Íê³É£¬ÓÃÊ±: 3.00Ãë
+2025-09-08 10:34:50,092 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.99.62:5000
+2025-09-08 10:34:50,092 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 10:35:35,062 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 10:35:35] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 10:35:37,071 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 10:35:37] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 10:35:39,083 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 10:35:39] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 10:42:35,831 - __main__ - INFO - ¼ÓÔØ¿ìËÙ¼ì²éÊý¾Ý: ÔºÐ£455¸ö, ×¨Òµ4108¸ö
+2025-09-08 10:42:35,834 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-08 10:42:35,845 - __main__ - INFO - ÌØÕ÷×ª»»Æ÷³õÊ¼»¯Íê³É
+2025-09-08 10:42:38,437 - __main__ - INFO - Æ¥ÅäÏµÍ³³õÊ¼»¯Íê³É
+2025-09-08 10:42:38,437 - __main__ - INFO - ÏµÍ³³õÊ¼»¯Íê³É£¬ÓÃÊ±: 2.60Ãë
+2025-09-08 10:42:38,474 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.99.62:5000
+2025-09-08 10:42:38,474 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 10:43:06,041 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 10:43:06] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 10:43:08,066 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 10:43:08] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 10:43:10,085 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 10:43:10] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 16:32:54,198 - __main__ - INFO - ¼ÓÔØ¿ìËÙ¼ì²éÊý¾Ý: ÔºÐ£455¸ö, ×¨Òµ4108¸ö
+2025-09-08 16:32:54,203 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-08 16:32:54,219 - __main__ - INFO - ÌØÕ÷×ª»»Æ÷³õÊ¼»¯Íê³É
+2025-09-08 16:32:56,649 - __main__ - INFO - Æ¥ÅäÏµÍ³³õÊ¼»¯Íê³É
+2025-09-08 16:32:56,649 - __main__ - INFO - ÏµÍ³³õÊ¼»¯Íê³É£¬ÓÃÊ±: 2.45Ãë
+2025-09-08 16:32:56,686 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.20.95:5000
+2025-09-08 16:32:56,686 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 16:35:43,151 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 16:35:43] "GET /api/status HTTP/1.1" 200 -
+2025-09-08 16:35:45,174 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 16:35:45] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 16:38:33,935 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 16:38:33] "GET /api/status HTTP/1.1" 200 -
+2025-09-08 16:38:35,944 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 16:38:35] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 16:38:37,950 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 16:38:37] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 16:38:39,962 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 16:38:39] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 16:38:41,972 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 16:38:41] "[31m[1mPOST /api/recommend/student HTTP/1.1[0m" 400 -
+2025-09-08 16:38:43,994 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 16:38:43] "[31m[1mPOST /api/recommend/student HTTP/1.1[0m" 400 -
+2025-09-08 16:38:46,014 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 16:38:46] "[31m[1mPOST /api/match/student HTTP/1.1[0m" 400 -
+2025-09-08 16:38:48,029 - __main__ - ERROR - APIÇëÇó´¦ÀíÊ§°Ü: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-09-08 16:38:48,119 - __main__ - ERROR - Traceback (most recent call last):
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 611, in get_json
+    rv = self.json_module.loads(data)
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\flask\json\provider.py", line 187, in loads
+    return json.loads(s, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\flask\wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 645, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\production_api_server.py", line 294, in match_student
+    data = request.get_json()
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 620, in get_json
+    rv = self.on_json_loading_failed(e)
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\flask\wrappers.py", line 219, in on_json_loading_failed
+    raise BadRequest() from ebr
+werkzeug.exceptions.BadRequest: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2025-09-08 16:38:48,121 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 16:38:48] "[35m[1mPOST /api/match/student HTTP/1.1[0m" 500 -
+2025-09-08 16:38:50,128 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 16:38:50] "GET /api/status HTTP/1.1" 200 -
+2025-09-08 16:38:52,140 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 16:38:52] "GET /api/majors HTTP/1.1" 200 -

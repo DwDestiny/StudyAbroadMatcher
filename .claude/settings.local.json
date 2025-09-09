@@ -15,7 +15,15 @@
       "Bash(powershell:*)",
       "Bash(del \"test_enhanced_matching.py\" \"test_improved_classifier.py\")",
       "Bash(Start-Process \"index.html\")",
-      "Bash(del:*)"
+      "Bash(del:*)",
+      "Bash(timeout 30 python:*)",
+      "Read(E:\\小희\\python脚本\\定校数据支撑方案/**)",
+      "Read(E:\\小희\\python脚本\\定校数据支撑方案/**)",
+      "Bash(curl:*)",
+      "Read(E:\\小희\\python脚本/**)",
+      "Bash(find:*)",
+      "Read(E:\\小희\\python脚本\\定校数据支撑方案/**)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

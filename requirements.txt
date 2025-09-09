@@ -27,3 +27,8 @@ ipywidgets>=8.0.0
 # 工具库
 tqdm>=4.65.0
 python-dotenv>=1.0.0
+
+# API服务
+flask>=3.0.0
+flask-cors>=6.0.0
+requests>=2.31.0
