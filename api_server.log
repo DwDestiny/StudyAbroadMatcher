@@ -324,3 +324,27 @@ werkzeug.exceptions.BadRequest: 400 Bad Request: The browser (or proxy) sent a r
 2025-09-10 16:07:54,466 - __main__ - INFO - ø™ º¥¶¿Ì∆•≈‰«Î«Û: University_ID_32 -> None
 2025-09-10 16:07:54,466 - __main__ - INFO - ∆•≈‰«Î«ÛÕÍ≥…£¨”√ ±: 0.001√Î£¨∆•≈‰∂»: N/A∑÷
 2025-09-10 16:07:54,466 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 16:07:54] "POST /api/match/student HTTP/1.1" 200 -
+2025-09-10 16:10:42,017 - __main__ - INFO - º”‘ÿøÏÀŸºÏ≤È ˝æ›: ‘∫–£455∏ˆ, ◊®“µ4108∏ˆ
+2025-09-10 16:10:42,020 - __main__ - INFO - ø™ º≥ı ºªØ—ß…˙◊®“µ∆•≈‰œµÕ≥...
+2025-09-10 16:10:42,029 - __main__ - INFO - Ãÿ’˜◊™ªª∆˜≥ı ºªØÕÍ≥…
+2025-09-10 16:10:44,452 - __main__ - INFO - ∆•≈‰œµÕ≥≥ı ºªØÕÍ≥…
+2025-09-10 16:10:44,452 - __main__ - INFO - œµÕ≥≥ı ºªØÕÍ≥…£¨”√ ±: 2.43√Î
+2025-09-10 16:10:44,484 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.99.62:5000
+2025-09-10 16:10:44,484 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-10 16:11:12,577 - __main__ - INFO - DEBUG: target_major_id = 157073, type = <class 'int'>
+2025-09-10 16:11:12,577 - __main__ - INFO - DEBUG: target_major = None, type = <class 'NoneType'>
+2025-09-10 16:11:12,577 - __main__ - INFO - DEBUG: not target_major_id = False
+2025-09-10 16:11:12,577 - __main__ - INFO - DEBUG: not target_major = True
+2025-09-10 16:11:12,578 - __main__ - INFO - ø™ º¥¶¿Ì∆•≈‰«Î«Û: University_ID_32 -> Master of Commerce (Extension)
+2025-09-10 16:11:12,579 - __main__ - INFO - ∆•≈‰«Î«ÛÕÍ≥…£¨”√ ±: 0.002√Î£¨∆•≈‰∂»: 76∑÷
+2025-09-10 16:11:12,580 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 16:11:12] "POST /api/match/student HTTP/1.1" 200 -
+2025-09-10 16:12:43,229 - __main__ - INFO - DEBUG: target_major_id = 157073, type = <class 'int'>
+2025-09-10 16:12:43,229 - __main__ - INFO - DEBUG: target_major = None, type = <class 'NoneType'>
+2025-09-10 16:12:43,229 - __main__ - INFO - DEBUG: not target_major_id = False
+2025-09-10 16:12:43,229 - __main__ - INFO - DEBUG: not target_major = True
+2025-09-10 16:12:43,230 - __main__ - INFO - ø™ º¥¶¿Ì∆•≈‰«Î«Û: University_ID_32 -> Master of Commerce (Extension)
+2025-09-10 16:12:43,230 - __main__ - INFO - ∆•≈‰«Î«ÛÕÍ≥…£¨”√ ±: 0.001√Î£¨∆•≈‰∂»: 76∑÷
+2025-09-10 16:12:43,231 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 16:12:43] "POST /api/match/student HTTP/1.1" 200 -
