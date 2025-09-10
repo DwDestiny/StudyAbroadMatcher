@@ -303,17 +303,12 @@ def match_student():
         target_major_id = data.get('target_major_id')
         target_major = data.get('target_major')
         
-        # 调试输出
-        logger.info(f"DEBUG: target_major_id = {target_major_id}, type = {type(target_major_id)}")
-        logger.info(f"DEBUG: target_major = {target_major}, type = {type(target_major)}")
-        logger.info(f"DEBUG: not target_major_id = {not target_major_id}")
-        logger.info(f"DEBUG: not target_major = {not target_major}")
         
         # 验证目标专业：优先使用ID，备选使用名称
         if not target_major_id and not target_major:
             return jsonify({
                 'success': False,
-                'error': 'DEBUG_TEST_MESSAGE: 缺少专业参数',
+                'error': '请指定target_major_id（专业ID）或target_major（专业名称）',
                 'error_code': 'MISSING_TARGET_MAJOR'
             }), 400
         
@@ -380,8 +375,39 @@ def match_student():
             
             return jsonify(response), 400
         
+        # ID到名称的转换逻辑（关键修复）
+        final_university_name = university_name  # 默认使用提供的名称
+        final_target_major = target_major         # 默认使用提供的名称
+        
+        # 从ID转换为名称（如果提供了ID但没有名称）
+        if university_id and not university_name:
+            # 反向查找：从ID找到对应的名称
+            uni_mapping = quick_check_data.get('university_name_to_id', {})
+            for name, uid in uni_mapping.items():
+                if uid == university_id:
+                    final_university_name = name
+                    student_info['university'] = name  # 更新student_info
+                    break
+        
+        if target_major_id and not target_major:
+            # 反向查找：从ID找到对应的名称
+            major_mapping = quick_check_data.get('major_name_to_id', {})
+            for name, mid in major_mapping.items():
+                if mid == target_major_id:
+                    final_target_major = name
+                    break
+        
+        # 验证最终是否有有效的专业名称
+        if not final_target_major:
+            return jsonify({
+                'success': False,
+                'error': f'无法从ID {target_major_id} 找到对应的专业名称',
+                'error_code': 'ID_TO_NAME_MAPPING_FAILED',
+                'suggestion': '请检查target_major_id是否正确，或直接提供target_major名称'
+            }), 400
+        
         # 将原始学生信息转换为特征
-        logger.info(f"开始处理匹配请求: {student_info.get('university', 'Unknown')} -> {target_major}")
+        logger.info(f"开始处理匹配请求: {final_university_name or 'Unknown'} -> {final_target_major}")
         
         try:
             features = feature_converter.convert_raw_student_info(student_info)
@@ -396,7 +422,7 @@ def match_student():
         
         # 执行匹配计算
         try:
-            result = matching_system.calculate_enhanced_single_match(features, target_major)
+            result = matching_system.calculate_enhanced_single_match(features, final_target_major)
         except Exception as e:
             logger.error(f"匹配计算失败: {str(e)}")
             return jsonify({
@@ -411,12 +437,12 @@ def match_student():
                 'university': student_info.get('university'),
                 'gpa': student_info.get('gpa'),
                 'current_major': student_info.get('current_major'),
-                'target_major': target_major
+                'target_major': final_target_major
             }
             
             # 添加业务解释
             result['explanation'] = generate_match_explanation(
-                student_info, target_major, result
+                student_info, final_target_major, result
             )
         
         # 更新统计信息

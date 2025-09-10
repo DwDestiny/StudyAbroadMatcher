@@ -274,3 +274,53 @@ werkzeug.exceptions.BadRequest: 400 Bad Request: The browser (or proxy) sent a r
 2025-09-08 16:38:48,121 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 16:38:48] "[35m[1mPOST /api/match/student HTTP/1.1[0m" 500 -
 2025-09-08 16:38:50,128 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 16:38:50] "GET /api/status HTTP/1.1" 200 -
 2025-09-08 16:38:52,140 - werkzeug - INFO - 127.0.0.1 - - [08/Sep/2025 16:38:52] "GET /api/majors HTTP/1.1" 200 -
+2025-09-10 16:03:51,363 - __main__ - INFO - ¼ÓÔØ¿ìËÙ¼ì²éÊý¾Ý: ÔºÐ£455¸ö, ×¨Òµ4108¸ö
+2025-09-10 16:03:51,369 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ñ§Éú×¨ÒµÆ¥ÅäÏµÍ³...
+2025-09-10 16:03:51,398 - __main__ - INFO - ÌØÕ÷×ª»»Æ÷³õÊ¼»¯Íê³É
+2025-09-10 16:03:55,535 - __main__ - INFO - Æ¥ÅäÏµÍ³³õÊ¼»¯Íê³É
+2025-09-10 16:03:55,535 - __main__ - INFO - ÏµÍ³³õÊ¼»¯Íê³É£¬ÓÃÊ±: 4.17Ãë
+2025-09-10 16:03:55,579 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.99.62:5000
+2025-09-10 16:03:55,579 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-10 16:06:40,148 - __main__ - ERROR - APIÇëÇó´¦ÀíÊ§°Ü: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-09-10 16:06:40,159 - __main__ - ERROR - Traceback (most recent call last):
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 611, in get_json
+    rv = self.json_module.loads(data)
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\flask\json\provider.py", line 187, in loads
+    return json.loads(s, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python313\Lib\json\__init__.py", line 341, in loads
+    s = s.decode(detect_encoding(s), 'surrogatepass')
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbc in position 79: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\flask\wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 645, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: 'utf-8' codec can't decode byte 0xbc in position 79: invalid start byte
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\production_api_server.py", line 294, in match_student
+    data = request.get_json()
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 620, in get_json
+    rv = self.on_json_loading_failed(e)
+  File "E:\Ð¡Ï£\python½Å±¾\¶¨Ð£Êý¾ÝÖ§³Å·½°¸\venv\Lib\site-packages\flask\wrappers.py", line 219, in on_json_loading_failed
+    raise BadRequest() from ebr
+werkzeug.exceptions.BadRequest: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2025-09-10 16:06:40,160 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 16:06:40] "[35m[1mPOST /api/match/student HTTP/1.1[0m" 500 -
+2025-09-10 16:07:54,465 - __main__ - INFO - DEBUG: target_major_id = 157073, type = <class 'int'>
+2025-09-10 16:07:54,465 - __main__ - INFO - DEBUG: target_major = None, type = <class 'NoneType'>
+2025-09-10 16:07:54,465 - __main__ - INFO - DEBUG: not target_major_id = False
+2025-09-10 16:07:54,466 - __main__ - INFO - DEBUG: not target_major = True
+2025-09-10 16:07:54,466 - __main__ - INFO - ¿ªÊ¼´¦ÀíÆ¥ÅäÇëÇó: University_ID_32 -> None
+2025-09-10 16:07:54,466 - __main__ - INFO - Æ¥ÅäÇëÇóÍê³É£¬ÓÃÊ±: 0.001Ãë£¬Æ¥Åä¶È: N/A·Ö
+2025-09-10 16:07:54,466 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 16:07:54] "POST /api/match/student HTTP/1.1" 200 -
