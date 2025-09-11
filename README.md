@@ -61,56 +61,149 @@ curl http://localhost:5000/api/status
 
 **POST** `/api/match/student` - 计算学生与指定专业的匹配度
 
-#### ID方式调用（推荐）
+#### 完整参数表格
+
+| 参数名 | 类型 | 必需性 | 默认值 | 说明 |
+|--------|------|---------|---------|------|
+| **院校参数** | | | | |
+| `university_id` | integer | 推荐* | - | 院校ID（精确匹配，推荐使用） |
+| `university` | string | 备选* | - | 院校名称（backup方式） |
+| **专业参数** | | | | |
+| `target_major_id` | integer | 推荐* | - | 目标专业ID（精确匹配，推荐使用） |
+| `target_major` | string | 备选* | - | 目标专业名称（backup方式） |
+| **学术信息** | | | | |
+| `gpa` | float | **必需** | - | GPA成绩 (0.0-4.0 或其他制) |
+| `current_major` | string | **必需** | - | 当前专业名称 |
+| `gpa_scale` | float | 可选 | 4.0 | GPA满分 (4.0/5.0/100) |
+| `degree_level` | string | 可选 | "本科" | 学历层次：本科/硕士/博士 |
+| **院校目标** | | | | |
+| `target_university` | string | 可选 | - | 目标院校名称（用于院校匹配度） |
+| **语言成绩** | | | | |
+| `language_test` | object | 可选 | - | 标准化语言成绩对象 |
+| `language_test.type` | string | 可选 | - | 考试类型：IELTS/TOEFL/PTE/DUOLINGO |
+| `language_test.score` | float | 可选 | - | 对应成绩 |
+| `ielts_score` | float | 可选 | - | 雅思总分 (0.0-9.0，简化格式) |
+| `toefl_score` | float | 可选 | - | 托福总分 (0-120，简化格式) |
+| **工作经验** | | | | |
+| `work_experience` | array | 可选 | [] | 详细工作经历数组 |
+| `work_experience[].duration_years` | float | 可选 | - | 单段工作年限 |
+| `work_experience[].relevance_to_major` | float | 可选 | 0.5 | 与专业相关度 (0.0-1.0) |
+| `work_experience_years` | float | 可选 | 0 | 工作年限（简化版） |
+| `work_field` | string | 可选 | - | 工作领域 |
+| **其他信息** | | | | |
+| `research_experience` | boolean | 可选 | false | 是否有研究经历 |
+| `application_year` | integer | 可选 | 当前年 | 申请年份 |
+| `graduation_date` | string | 可选 | - | 毕业日期 (YYYY-MM-DD) |
+
+> **注意**: 院校和专业参数必须至少提供一种方式：要么使用ID（推荐），要么使用名称
+
+#### 调用示例
+
+**ID方式调用（推荐）**
 ```bash
 curl -X POST http://localhost:5000/api/match/student \
   -H "Content-Type: application/json" \
   -d '{
-    "university_id": 32,           // 院校ID（精确匹配）
-    "target_major_id": 157073,     // 专业ID（避免歧义）
+    "university_id": 32,
+    "target_major_id": 157073,
     "gpa": 3.7,
     "current_major": "计算机科学"
   }'
 ```
 
-#### 名称方式调用（兼容）
+**完整参数调用**
 ```bash
 curl -X POST http://localhost:5000/api/match/student \
   -H "Content-Type: application/json" \
   -d '{
-    "university": "The University of Sydney",
-    "target_major": "Master of Commerce",
+    "university": "北京理工大学",
+    "university_id": 32,
+    "target_major": "Master of Computer Science",
+    "target_major_id": 157073,
     "gpa": 3.6,
-    "current_major": "计算机科学",
-    "ielts_score": 7.0
+    "gpa_scale": 4.0,
+    "current_major": "计算机科学与技术",
+    "degree_level": "本科",
+    "target_university": "University of Melbourne",
+    "language_test": {
+      "type": "IELTS",
+      "score": 7.0
+    },
+    "work_experience": [
+      {
+        "duration_years": 1.5,
+        "relevance_to_major": 0.8
+      }
+    ],
+    "research_experience": true,
+    "application_year": 2024
   }'
+```
+
+**不同语言成绩格式**
+```bash
+# 标准格式
+"language_test": {
+  "type": "IELTS",
+  "score": 7.0
+}
+
+# 简化格式
+"ielts_score": 7.0
+"toefl_score": 95
+
+# 不同GPA制式
+"gpa": 3.7,        # 4.0制（默认）
+"gpa_scale": 4.0
+
+"gpa": 85.5,       # 百分制
+"gpa_scale": 100
 ```
 
 #### 响应结果
 ```json
 {
   "success": true,
-  "match_score": 76,                    // 匹配度分数 (0-100)
-  "match_level": "中等匹配",            // 匹配等级
-  "target_major": "Master of Commerce", 
+  "match_score": 76,
+  "match_level": "中等匹配",
+  "target_major": "Master of Computer Science",
   "recommendation": "推荐申请，建议准备充分的申请材料",
-  "score_breakdown": {                  // 分数构成分析
+  "score_breakdown": {
     "base_score": 67.6,
     "confidence_adjustment": 2.1,
     "coverage_adjustment": 6.8
   },
-  "success_indicators": {               // 成功指标分析
-    "academic_performance": 0.79,       // 学术表现匹配度
-    "major_background": 0.50,          // 专业背景相关性
-    "language_proficiency": 0.73       // 语言能力匹配度
+  "success_indicators": {
+    "academic_performance": 0.79,
+    "major_background": 0.50,
+    "language_proficiency": 0.73
+  },
+  "input_info": {
+    "university": "北京理工大学",
+    "gpa": 3.6,
+    "current_major": "计算机科学与技术",
+    "target_major": "Master of Computer Science"
+  },
+  "explanation": {
+    "match_summary": "基于您的背景（北京理工大学，GPA 3.6，计算机科学与技术专业），申请Master of Computer Science的匹配度为76分（中等匹配）",
+    "score_interpretation": "较高的匹配度，您具备申请该专业的良好条件",
+    "recommendation": "推荐申请，建议准备充分的申请材料"
   }
 }
 ```
 
-### 推荐接口
+### 专业推荐接口
 
 **POST** `/api/recommend/student` - 推荐最适合的专业列表
 
+#### 参数说明
+基础参数同匹配接口，额外参数：
+
+| 参数名 | 类型 | 必需性 | 默认值 | 说明 |
+|--------|------|---------|---------|------|
+| `top_n` | integer | 可选 | 5 | 推荐专业数量 (1-20) |
+
+#### 调用示例
 ```bash
 curl -X POST http://localhost:5000/api/recommend/student \
   -H "Content-Type: application/json" \
@@ -118,8 +211,33 @@ curl -X POST http://localhost:5000/api/recommend/student \
     "university_id": 32,
     "gpa": 3.7,
     "current_major": "计算机科学",
-    "top_n": 5                          // 推荐专业数量
+    "top_n": 5,
+    "language_test": {
+      "type": "IELTS",
+      "score": 6.5
+    }
   }'
+```
+
+### 错误处理
+
+#### 常见错误码
+- `SYSTEM_NOT_INITIALIZED`: 系统未初始化
+- `INVALID_JSON`: JSON格式错误
+- `MISSING_TARGET_MAJOR`: 缺少目标专业参数
+- `INVALID_STUDENT_INFO`: 学生信息不完整
+- `INSUFFICIENT_DATA`: 历史数据不足
+- `ID_MAPPING_FAILED`: ID映射失败
+
+#### 错误响应示例
+```json
+{
+  "success": false,
+  "error": "院校ID 999 历史数据不足（25条<100条）",
+  "error_code": "INSUFFICIENT_DATA",
+  "suggestion": "建议选择数据更充足的院校",
+  "available_university_ids": [32, 45, 67, 89, 123]
+}
 ```
 
 ---
